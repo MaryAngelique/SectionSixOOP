@@ -1,6 +1,12 @@
 package com.timbuchalka;
 
 public class Account {
+
+    public void deposit(double depositAmount) {
+        this.balance += depositAmount;
+        System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
+    }
+
     public String getNumber() {
         return number;
     }
