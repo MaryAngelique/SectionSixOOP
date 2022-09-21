@@ -15,4 +15,24 @@ public class Animal {
         this.teeth = teeth;
         this.coat = coat;
     }
+
+    public int getEyes() {
+        return eyes;
+    }
+
+    public int getLegs() {
+        return legs;
+    }
+
+    public int getTail() {
+        return tail;
+    }
+
+    public int getTeeth() {
+        return teeth;
+    }
+
+    public String getCoat() {
+        return coat;
+    }
 }
