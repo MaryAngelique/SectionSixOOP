@@ -1,6 +1,6 @@
 package com.timbuchalka;
 
-public class Dog {
+public class Dog extends Animal {
 
     private int eyes;
     private int legs;
@@ -8,12 +8,8 @@ public class Dog {
     private int teeth;
     private String coat;
 
-    public Dog(int eyes, int legs, int tail, int teeth, String coat) {
-        this.eyes = eyes;
-        this.legs = legs;
-        this.tail = tail;
-        this.teeth = teeth;
-        this.coat = coat;
+    public Dog(String eyes, int legs, int tail, int teeth, String coat) {
+        super(eyes, legs, tail, teeth, coat);
     }
 
     public int getEyes() {
