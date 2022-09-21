@@ -2,6 +2,14 @@ package com.timbuchalka;
 
 public class Account {
 
+    public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber) {
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmailAddress = customerEmailAddress;
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
     public void deposit(double depositAmount) {
         this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
