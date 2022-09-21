@@ -2,37 +2,19 @@ package com.timbuchalka;
 
 public class Animal {
 
-    private int eyes;
-    private int legs;
-    private int tail;
-    private int teeth;
-    private String coat;
+    private String name;
+    private int brain;
+    private int body;
+    private int size;
+    private int weight;
 
-    public Animal(int eyes, int legs, int tail, int teeth, String coat) {
-        this.eyes = eyes;
-        this.legs = legs;
-        this.tail = tail;
-        this.teeth = teeth;
-        this.coat = coat;
+    public Animal(String name, int brain, int body, int size, int weight) {
+        this.name = name;
+        this.brain = brain;
+        this.body = body;
+        this.size = size;
+        this.weight = weight;
     }
 
-    public int getEyes() {
-        return eyes;
-    }
 
-    public int getLegs() {
-        return legs;
-    }
-
-    public int getTail() {
-        return tail;
-    }
-
-    public int getTeeth() {
-        return teeth;
-    }
-
-    public String getCoat() {
-        return coat;
-    }
 }
