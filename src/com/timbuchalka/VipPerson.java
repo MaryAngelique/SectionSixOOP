@@ -19,4 +19,16 @@ public class VipPerson {
         this.creditLimit = creditLimit;
         this.emailAddress = emailAddress;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
 }
