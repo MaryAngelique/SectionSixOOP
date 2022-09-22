@@ -30,5 +30,22 @@ public class ChallengeVehicle {
         currentVelocity = velocity;
         currentDirection = direction;
         System.out.println("Vehicle.move(): Moving at " + currentVelocity + "in direction");
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public int getCurrentVelocity() {
+        return currentVelocity;
+    }
+
+    public int getCurrentDirection() {
+        return currentDirection;
     }
 }
