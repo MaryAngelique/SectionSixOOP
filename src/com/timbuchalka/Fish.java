@@ -1,6 +1,6 @@
 package com.timbuchalka;
 
-public class Fish {
+public class Fish extends Animal {
 
     private int gills;
     private int eyes;
