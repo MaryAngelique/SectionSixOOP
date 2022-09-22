@@ -8,8 +8,13 @@ public class Dog extends Animal {
     private int teeth;
     private String coat;
 
-    public Dog(String eyes, int legs, int tail, int teeth, String coat) {
-        super(eyes, legs, tail, teeth, coat);
+    public Dog(int eyes, int legs, int tail, int teeth, String coat) {
+        super(name, 1, 1, size, weight);
+        this.eyes = eyes;
+        this.legs = legs;
+        this.tail = tail;
+        this.teeth = teeth;
+        this.coat = coat;
     }
 
     public int getEyes() {
