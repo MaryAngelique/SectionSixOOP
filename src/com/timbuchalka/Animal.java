@@ -16,6 +16,16 @@ public class Animal {
         this.weight = weight;
     }
 
+    public void eat() {
+        System.out.println("Animal.eat() called");
+    }
+
+    public void move() {
+
+    }
+
+
+
     public String getName() {
         return name;
     }
@@ -35,5 +45,4 @@ public class Animal {
     public int getWeight() {
         return weight;
     }
-
 }
