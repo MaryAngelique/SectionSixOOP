@@ -31,4 +31,9 @@ public class ChallengeCar extends ChallengeVehicle {
         System.out.println("Car.changeVelocity(): Velocity " + speed + "direction " + direction);
 
     }
+
+    @Override
+    public void stop() {
+        super.stop();
+    }
 }
