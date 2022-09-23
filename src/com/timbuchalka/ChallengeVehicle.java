@@ -48,4 +48,8 @@ public class ChallengeVehicle {
     public int getCurrentDirection() {
         return currentDirection;
     }
+
+    public void stop() {
+        this.currentVelocity = 0;
+    }
 }
