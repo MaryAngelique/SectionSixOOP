@@ -4,7 +4,7 @@ public class ChallengeOutlander extends ChallengeCar {
 
     private int roadService;
 
-    public ChallengeOutlander(int wheels, int doors, int gears, boolean isManual, int roadService) {
+    public ChallengeOutlander(int roadService) {
 
         super("Outlander", "4WD", 5, 5, 6, false);
         this.roadService = roadService;
@@ -17,6 +17,7 @@ public class ChallengeOutlander extends ChallengeCar {
 
         if(newVelocity == 0) {
             stop();
+            changeGear(1);
 
         } else if (newVelocity > 0 && newVelocity <= 10) {
             changeGear(1);
