@@ -18,15 +18,6 @@ public class ChallengeCar extends ChallengeVehicle {
         this.currentGear = 1;
     }
 
-    public ChallengeCar(String name, String size, int wheels, int doors, int gears, boolean isManual, int currentGear) {
-        super(name, size);
-        this.wheels = wheels;
-        this.doors = doors;
-        this.gears = gears;
-        this.isManual = isManual;
-        this.currentGear = currentGear;
-    }
-
     public void changeGear(int currentGear) {
 
         this.currentGear = currentGear;
